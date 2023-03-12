@@ -4,6 +4,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #9bb6d6;
 }
 
 body {
@@ -128,6 +129,7 @@ body {
 .rodape__lista {
     display: flex;
     list-style-type: none;
+    margin-bottom: 2em;
 }
 
 .lista__link a {
@@ -141,8 +143,17 @@ body {
     color: var(--botao-azul);
 }
 
+.lista__link a:active {
+    color: red;
+}
+
 .rodape__texto {
     font-size: 14px;
     color: var(--cinza-secundario);
     margin-bottom: 2em;
+}
+
+.container__botao:hover {
+    background-color: var(--botao-azul-efeito);
+    color: var(--cor-de-fundo);
 }
