@@ -5,6 +5,7 @@
         background-repeat: no-repeat;
         background-position: center;
         display: inline-block;
+        
 }
 
 .cabecalho {
@@ -28,6 +29,7 @@
     display: none;
     position: absolute;
     top: 100%;
+    width: 50vw;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -41,6 +43,7 @@
 
 .lista-menu__titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link {
@@ -48,4 +51,9 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
 }
