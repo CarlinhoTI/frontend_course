@@ -69,7 +69,8 @@
 .botoes__link {
     background-color: var(--laranja);
     align-items: center;
-    padding: 8px 16px;
+    padding: 1px 2.2px;
     font-weight: 700;
     color: var(--branco);
+    text-decoration: none;
 }
