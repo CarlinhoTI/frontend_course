@@ -5,17 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alura Books</title>
     <link rel="stylesheet" href="reset.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -44,13 +39,22 @@
           </li>
         </ul>
         <img src="img/Logo.svg" alt="Logo AluraBooks" class="logo__aluraboooks" />
+        <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
       </div>
+
+      <ul class="opcoes">
+        <li class="opcoes__item">categorias</li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">favoritos</a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link"></a>minha estante</li>
+      </ul>
+
       <div class="container">
         <a href="#"
           ><img
             src="img/Favoritos.svg"
             alt="Favoritos AluraBooks"
             class="container__imagem"
+            id="container__imagem-transparente"
         /></a>
         <a href="#"
           ><img
@@ -212,6 +216,32 @@
         <a href="#" class="botoes__link">Saiba mais</a>
       </div>
     </div>
+
+    <section class="topicos">
+      <h2 class="topicos__titulo">tópicos visitados recentemente</h2>
+      <ul class="topicos__lista">
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">android</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">marketing digital</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">agile</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">startups</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">HTML & CSS</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">python</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">GO</a></li>
+        <li class="topicos__lista-item"><a href="#" class="topicos__lista-link">java</a></li>
+      </ul>
+    </section>
+    
+    <section class="contato">
+      <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+      <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+      <input type="email" class="contato__email" placeholder="Cadastre seu e-mail"/>
+    </section>
+
+    <hr/>
+
+    <footer class="rodape">
+      <h2 class="rodape__titulo">grupo alura</h2>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script>
