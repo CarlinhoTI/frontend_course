@@ -112,7 +112,26 @@
         margin: 2em 0;
     }
 
-    .swiper, .card {
+    .swiper {
         width: 50%;
+    }
+
+    .descricao__titulo {
+        font-size: 28px;
+        margin-top: 0.2em;
+    }
+
+    .descricao__titulo--livro {
+        margin-top: 0.5em;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+        margin-top: 0.5em;
+    }
+
+    .card {
+        width: 50%;
+        margin: 3em 0 0 3em;
     }
 }

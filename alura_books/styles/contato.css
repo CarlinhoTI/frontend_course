@@ -67,3 +67,23 @@
         background-position: 4.5em;
     }
 }
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 20vw;
+    }
+
+    .contato__descricao {
+        width: 70%;
+        padding-left: 2em;
+    }
+
+    .contato__email {
+        width: 65%;
+        text-align: center;
+    }
+
+    .contato__email::placeholder {
+        background-position: 4.5em;
+    }
+}
